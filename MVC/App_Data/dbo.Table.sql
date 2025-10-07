@@ -1,0 +1,15 @@
+﻿CREATE TABLE [dbo].[Insurees]
+(
+[Id] INT NOT NULL PRIMARY KEY IDENTITY (0,1),
+[FirstName] NAVCHAR(50) NOT NULL,
+[LastName] NAVCHAR(50) NOT NULL,
+[EmailAddress] NAVCHAR(50) NOT NULL,
+[DateOfBirth] DATETIME NOT NULL,
+[CarYear] INT NOT NULL,
+[CarMake] NAVCHAR(50) NOT NULL,
+[CarModel] NAVCHAR(50) NOT NULL,
+[DUI] BIT NOT NULL,
+[SpeedingTickets] INT NOT NULL,
+[CoverageType] BIT NOT NULL,
+[Quote] MONEY NOT NULL,
+)
